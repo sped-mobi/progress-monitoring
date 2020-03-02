@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "year": {
+      "type": "string",
+      "enum": [ "SY 2019-2020", "SY 2020-2021" ]
+    },
+    "campus": {
+      "type": "string"
+    },
+    "students": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Student"
+      }
+    }
+  },
+  "required": [
+    "campus",
+    "students",
+    "year"
+  ],
+  "definitions": {
+    "Student": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string",
+          "enum": [ "F", "M" ]
+        },
+        "grade": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string",
+          "format": "date"
+        },
+        "goals": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Goal"
+          }
+        }
+      },
+      "required": [
+        "dob",
+        "gender",
+        "grade",
+        "id",
+        "name"
+      ],
+      "title": "Student"
+    },
+    "Goal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "number": {
+          "type": "string"
+        },
+        "focus": {
+          "type": "string"
+        },
+        "annualGoal": {
+          "type": "string"
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Objective"
+          }
+        }
+      },
+      "required": [
+        "annualGoal",
+        "focus",
+        "number",
+        "objectives"
+      ],
+      "title": "Goal"
+    },
+    "Objective": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "number": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "number",
+        "text"
+      ],
+      "title": "Objective"
+    }
+  }
+}

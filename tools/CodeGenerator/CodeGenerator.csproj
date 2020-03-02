@@ -1,0 +1,23 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <Sdk Name="Microsoft.NET.Sdk" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Gisd.Sped.Progress\Gisd.Sped.Progress.csproj" />
+  </ItemGroup>
+
+
+
+
+
+
+</Project>

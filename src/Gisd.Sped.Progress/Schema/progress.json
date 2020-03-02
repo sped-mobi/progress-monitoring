@@ -1,0 +1,305 @@
+{
+  "year": "SY 2019-2020",
+  "campus": "Lakeview Centennial High School",
+  "students": [
+    {
+      "name": "Jordan Smith",
+      "gender": "M",
+      "grade": "12",
+      "id": "446825",
+      "dob": "05/25/2001",
+      "goals": [
+        {
+          "number": "1",
+          "focus": "Social/Emotional",
+          "annualGoal": "From ARD year to ARD year when given verbal prompts and periodic checks for understanding Jordan will engage a task to completion 70% percent of the time.",
+          "objectives": [
+            {
+              "number": "1A",
+              "text": "From ARD year to ARD year when given verbal prompts and periodic checks for understanding Jordan will begin an independent task 70% of the time."
+            },
+            {
+              "number": "1B",
+              "text": "From ARD year to ARD year when given verbal prompts and periodic checks for understanding Jordan will remain engaged in an independent task 70% of the time."
+            },
+            {
+              "number": "1C",
+              "text": "From ARD year to ARD year when given verbal prompts and periodic checks for understanding Jordan will complete an independent task 70% of the time."
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "name": "Uriel Garcia Mejia",
+      "gender": "M",
+      "grade": "12",
+      "id": "339193",
+      "dob": "12/17/1998",
+      "goals": [
+        {
+          "number": "1",
+          "focus": "Integrated Functional Skills",
+          "annualGoal": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, and verbal reminders to remain on tasks with open hands, Uriel will demonstrate attentiveness to self help activities independently with 70% accuracy.",
+          "objectives": [
+            {
+              "number": "1A",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, and verbal reminders to remain on tasks with open hands, Uriel will demonstrate attentiveness to use the restroom accordingly to following toileting routines for quality sanitation practices independently with 70% accuracy."
+            },
+            {
+              "number": "1B",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, and verbal reminders to remain on tasks, Uriel will demonstrate attentiveness to properly engaging and terminating conversations between friends and strangers independently with 70% accuracy (SLP will assist with this objective)."
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "focus": "Integrated Vocational Skills",
+          "annualGoal": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, and verbal reminders to remain on tasks with open hands, Uriel will demonstrate organization skills independently with 70% accuracy.",
+          "objectives": [
+            {
+              "number": "2A",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, and verbal reminders to remain on tasks with open hands, Uriel will demonstrate the ability to fold, stack, sort, and place away household objects such as clothes, towels, dishes, and furniture independently with 70% accuracy."
+            },
+            {
+              "number": "2B",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, and verbal reminders to remain on tasks with open hands, Uriel will demonstrate the ability to follow his course schedule by participating in required tasks independently with 70% accuracy."
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "focus": "Physical Education",
+          "annualGoal": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, peer assistance, and reminders to remain on tasks using open hands, Uriel will actively prepare to participate in single competition sports events with 70% accuracy.",
+          "objectives": [
+            {
+              "number": "3A",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, peer assistance, and reminders to remain on tasks using open hands, Uriel will actively compete in single competition tournaments through Garland ISD with 70% accuracy."
+            },
+            {
+              "number": "3B",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts, peer assistance, and reminders to remain on tasks using open hands, Uriel will actively continue to improve his athletic abilities to throw, roll bowling ball and run with 70% accuracy."
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "focus": "Technology Education",
+          "annualGoal": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts and reminders to remain on tasks with open hands, Uriel will complete 4-5 computer lessons by typing 20-30 letters/words per minute with 70% accuracy.",
+          "objectives": [
+            {
+              "number": "4A",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts and reminders to remain on tasks using open hands, Uriel complete lessons by typing 20 to 30 letters/words per minute with 70% accuracy."
+            },
+            {
+              "number": "4B",
+              "text": "From ARD year to the end of the 2019-2020 Academic year, when given verbal direct prompts and reminders to remain on tasks using open hands, Uriel will complete up to 5 lessons per class period with 70% accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stephanie Moreno Jimenez",
+      "gender": "F",
+      "grade": "12",
+      "id": "343533",
+      "dob": "03/31/2000",
+      "goals": []
+
+    },
+    {
+      "name": "Jasmine Medina",
+      "gender": "F",
+      "grade": "12",
+      "id": "447305",
+      "dob": "02/25/2002",
+      "goals": []
+    },
+    {
+      "name": "Jasmine Ibarra",
+      "gender": "F",
+      "grade": "11",
+      "id": "353590",
+      "dob": "07/31/2003",
+      "goals": []
+    },
+    {
+      "name": "Lindsey Hernandez",
+      "gender": "F",
+      "grade": "10",
+      "id": "745724",
+      "dob": "12/01/2004",
+      "goals": []
+    },
+    {
+      "name": "Grace Leopold-George",
+      "gender": "F",
+      "grade": "11",
+      "id": "366908",
+      "dob": "06/02/2003",
+      "goals": [
+        {
+          "number": "1",
+          "focus": "English Language Arts",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will recognize that spoken words are represented in written English by specific sequences of letters by matching letters of basic sight words 70% of the time.",
+          "objectives": [
+            {
+              "number": "1A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will match the letters of the words: horse, a, car, yellow, see, ball, and, fish, boy, I, airplane, the, girl, and little, independently 70% of the time"
+            },
+            {
+              "number": "1B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will repeat the names of letters and the letter sounds when each letter and sound is named and a picture is presented, independently 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "focus": "Mathematics",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will recognize the quantity of a small group of objects in organized and random arrangements by counting the objects with verbal prompts 70% of the time.",
+          "objectives": [
+            {
+              "number": "2A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will place pennies on a number board when given a number amount with a verbal prompt 70% of the time."
+            },
+            {
+              "number": "2B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will add and subtract numbers 1 to 15 with a calculator and picture representations of the numbers with a verbal prompt 70% of the time."
+            },
+            {
+              "number": "2C",
+              "text": "From ARD year to ARD year, when given adult modeling, verbal prompting, short instructions, and pointing cues, Grace will count up to 60 with 70% accuracy."
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "focus": "Science",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will use simple measuring devices to learn about objects by participating in recipe/experiments independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "3A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will measure ingredients using measuring cups of 1/2, 1, and 1/4 with guided assistance 70% of the time."
+            },
+            {
+              "number": "3B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will measure ingredients using measuring spoons, 1 teaspoon, 1 tablespoon, and 1/2 teaspoon, with guided assistance 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "focus": "Social Studies",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will participate in absolute and relative chronology through the sequencing of significant individuals, and events by participating in creating timelines with visual graphic prompts 70% of the time.",
+          "objectives": [
+            {
+              "number": "4A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will participate in creating a timeline of significant individuals in history, such as George Washington and Thomas Jefferson by creating a booklet with visual graphic prompts 70% of the time."
+            },
+            {
+              "number": "4B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will participate in creating a timeline of the admission of the states into the United States by creating a states booklet with visual graphic prompts 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "focus": "Activities of Daily Living",
+          "annualGoal": "From ARD year to the end of the 2018-19 school year, when given adult modeling, short instructions, reminders and pointing cues Grace will participate in working towards Mastery of Activities of Daily Living by cleaning, independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "5A",
+              "text": "From ARD year to the end of the 2018-19 school year, when given adult modeling, short instructions, reminders and pointing cues Grace will use two hands to pull/push a broom to clean items on the floor independently 70% of the time."
+            },
+            {
+              "number": "5B",
+              "text": "From ARD year to the end of the 2018-19 school year, when given adult modeling, short instructions, reminders and pointing cues Grace will clean, using wet paper towels or wipes, a desk/table surface reaching all areas independently 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "focus": "Applied Marketable Skills",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will increase Mastery of Applied Marketable Skills by participating in folding cloth items and putting Marketable Skills Kits together and apart independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "6A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will fold hand towels independently 70% of the time."
+            },
+            {
+              "number": "6B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will put together or take apart kits that require 2-5 steps, independently 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "focus": "Recreation and Leisure",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will increase Mastery of Recreation/Leisure Skills by participating in arts/crafts and or computer activities independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "7A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will engage in a craft/drawing activity of her choice 70% of the time."
+            },
+            {
+              "number": "7B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cue, Grace will engage in a computer/I-Pad activity of her choice independently 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "focus": "Partner's PE",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and cues, Grace will apply movement concepts and principles to the learning and development of motor skills independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "8A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and cues Grace will participate in warm-up activities independently 70% of the time."
+            },
+            {
+              "number": "8B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will participate in organized group and individual gym activities independently 70% of the time."
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "focus": "Social/Emotional",
+          "annualGoal": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will increase Mastery of Social/Emotional Skills by communicating through words or pointing to pictures, when given a choice of activities or by following picture directives/reinforcements when they are pointed to, independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "9A",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will participate in responding by pointing to placed pictures or responding orally when directives with pictures have been pointed to and read to her independently 70% of the time (SLP will assist SPED teacher with this objective)."
+            },
+            {
+              "number": "9B",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues Grace will participate by responding orally or pointing to pictures when given a choice of activity independently 70% of the time (SLP will assist SPED teacher with this objective)."
+            },
+            {
+              "number": "9C",
+              "text": "From ARD year to ARD year, when given adult modeling, short instructions, reminders and pointing cues, Grace will identify emotions by pointing to 2 to 3 pictures and/or words with 70% accuracy."
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "focus": "Social/Emotional",
+          "annualGoal": "From ARD year to ARD year, when given adFrom the beginning of the 2019-20 school year to the end of the ARD year, when given adult modeling prompts, short instructions, and pointing cues, Grace will increase knowledge of personal health skills by identifying body parts with 70% accuracy. (SLP will collaborate with SPED teacher)ult modeling, short instructions, reminders and pointing cues, Grace will increase Mastery of Social/Emotional Skills by communicating through words or pointing to pictures, when given a choice of activities or by following picture directives/reinforcements when they are pointed to, independently 70% of the time.",
+          "objectives": [
+            {
+              "number": "10A",
+              "text": "From the beginning of the 2019-20 school year to the end of the ARD year, when given adult modeling prompts, short instructions, and pointing cues, Grace will identify body parts by pointing to head and facial parts with 70% accuracy. (SLP will collaborate with SPED teacher)"
+            },
+            {
+              "number": "10B",
+              "text": "From the beginning of the 2019-20 school year to the end of the ARD year, when given adult modeling prompts, short instructions, and pointing cues, Grace will identify body parts by pointing to torso areas and limbs with 70% accuracy. (SLP will collaborate with SPED teacher)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}

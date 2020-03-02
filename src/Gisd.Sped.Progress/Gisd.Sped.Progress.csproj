@@ -1,0 +1,26 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Progress Monitoring</Description>
+    <PackageDescription>$(Description)</PackageDescription>
+    <PackageReleaseNotes>$(PackageDescription)</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <Sdk Name="Microsoft.NET.Sdk" />
+
+  <PropertyGroup> 
+    <RootNamespace>Gisd.Sped</RootNamespace>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Independentsoft.Office.Word" Version="2.0.580" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties schema_4progress_1json__JsonSchema="progress.schema.json" schema_4progress_1schema_1json__JsonSchema="http://json-schema.org/draft-04/schema" /></VisualStudio></ProjectExtensions>
+
+
+</Project>
