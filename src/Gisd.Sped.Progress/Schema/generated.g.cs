@@ -152,9 +152,9 @@ namespace Gisd.Sped.Schema
             var value = serializer.Deserialize<string>(reader);
             switch (value)
             {
-                case "SY 2019-2020":
+                case "2019-2020":
                     return Year.Sy20192020;
-                case "SY 2020-2021":
+                case "2020-2021":
                     return Year.Sy20202021;
             }
             throw new Exception("Cannot unmarshal type Year");

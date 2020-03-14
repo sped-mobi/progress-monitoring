@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gisd.Sped.Progress", "src\G
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{1CC8C146-6E14-4E68-AE22-C5B6FA41F3F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressMonitor", "src\ProgressMonitor\ProgressMonitor.csproj", "{3FC89CDC-B7B6-45BB-83D0-449F68DBEF23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{7A2838BF-B2C0-44BB-B9B9-F13E5E190035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2838BF-B2C0-44BB-B9B9-F13E5E190035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2838BF-B2C0-44BB-B9B9-F13E5E190035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC89CDC-B7B6-45BB-83D0-449F68DBEF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC89CDC-B7B6-45BB-83D0-449F68DBEF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC89CDC-B7B6-45BB-83D0-449F68DBEF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC89CDC-B7B6-45BB-83D0-449F68DBEF23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

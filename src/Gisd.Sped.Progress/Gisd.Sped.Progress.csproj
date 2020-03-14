@@ -15,9 +15,17 @@
     <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
 
+  
   <ItemGroup>
-    <PackageReference Include="Independentsoft.Office.Word" Version="2.0.580" />
+    <PackageReference Include="Independentsoft.Office" Version="2.0.580" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Drive\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties schema_4progress_1json__JsonSchema="progress.schema.json" schema_4progress_1schema_1json__JsonSchema="http://json-schema.org/draft-04/schema" /></VisualStudio></ProjectExtensions>

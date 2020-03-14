@@ -37,7 +37,7 @@
         "grade": {
           "type": "string"
         },
-        "id": {
+        "districtId": {
           "type": "string"
         },
         "dob": {
@@ -60,28 +60,41 @@
       ],
       "title": "Student"
     },
+
     "Goal": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "number": {
-          "type": "string"
+          "type": "integer"
         },
         "focus": {
           "type": "string"
         },
-        "annualGoal": {
+        "timeFrame": {
+          "type": "string"
+        },
+        "conditions": {
+          "type": "string"
+        },
+        "behavior": {
+          "type": "string"
+        },
+        "criteria": {
           "type": "string"
         },
         "objectives": {
           "type": "array",
+          "minItems": 2,
           "items": {
             "$ref": "#/definitions/Objective"
           }
         }
       },
       "required": [
-        "annualGoal",
+        "timeFrame",
+        "conditions",
+        "behavior",
         "focus",
         "number",
         "objectives"
@@ -92,16 +105,29 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "number": {
+        "code": {
           "type": "string"
         },
-        "text": {
+        "timeFrame": {
+          "type": "string"
+        },
+        "conditions": {
+          "type": "string"
+        },
+
+        "behavior": {
+          "type": "string"
+        },
+        "criteria": {
           "type": "string"
         }
       },
       "required": [
-        "number",
-        "text"
+        "code",
+        "timeFrame",
+        "conditions",
+        "behavior",
+        "criteria"
       ],
       "title": "Objective"
     }
