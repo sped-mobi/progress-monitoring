@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./sped-config.xsd">
+  <schoolyear identifier="2020–2021">
+    <students>
+      <student firstName="Taylen" lastName="Beacham" dob="2008-05-20" localID="734282" gender="Male" grade="7" campus="O'Banion Middle School">
+        <accommodations>
+          <accommodationGroup name="Adapt Classroom Instruction">
+            <accommodation name="Alternate Curriculum" subject="ELA Rdg Math SC SS"/>
+            <accommodation name="Extended wait time for responses" subject="ELA Rdg Math SC PE SS FA"/>
+            <accommodation name="Grades based on Grading Rubric for Participation and Socialization in a General Education Setting" subject="PE FA"/>
+            <accommodation name="Grades based on Grading Rubric for Academic and Participation in a Special Education Setting" subject="ELA Rdg Math SC SS"/>
+            <accommodation name="Information presented orally" subject="ELA Rdg Math SC SS"/>
+            <accommodation name="Optional virtual/online instruction delivery" subject="ELA Rdg Math SC PE SS FA"/>
+            <accommodation name="Pictures paired with text" subject="ELA Rdg Math SC SS"/>
+            <accommodation name="Repeated verbal directions" subject="ELA Rdg Math SC PE SS FA"/>
+            <accommodation name="Three (3) options for answer choices" subject="ELA Rdg Math SC SS"/>
+            <accommodation name="Visual and verbal reminders to stay on task" subject="ELA Rdg Math SC PE SS FA"/>
+          </accommodationGroup>
+          <accommodationGroup name="Adapted or Additional Materials">
+            <accommodation name="Math Manipulatives: Counters (Unifix Cubes, Dice, Beads, etc.)" subject="Math"/>
+            <accommodation name="Math Manipulatives: Measuring devices (rulers, tape measure, etc.)" subject="Math"/>
+            <accommodation name="Math Manipulatives: Number chart/line" subject="Math"/>
+            <accommodation name="Math Manipulatives: Real or Play Money" subject="Math"/>
+          </accommodationGroup>
+          <accommodationGroup name="Alter Assignments or Testing">
+            <accommodation name="Exemption from final/semester tests" subject="ELA Rdg Math SC PE SS FA"/>
+          </accommodationGroup>
+          <accommodationGroup name="Manage Behavior">
+            <accommodation name="Clearly defined/consistent limits" subject="ELA Rdg Math SC PE SS FA"/>
+            <accommodation name="Follow behavior intervention plan" subject="ELA Rdg Math SC PE SS FA"/>
+            <accommodation name="Positive reinforcement" subject="ELA Rdg Math SC PE SS FA"/>
+            <accommodation name="Preferential seating" subject="ELA Rdg Math SC PE SS FA"/>
+          </accommodationGroup>
+          <accommodationGroup name="Supports for School Personnel">
+            <accommodation name="Support for general education teacher (provided by Special Ed. Staff)" subject="PE FA"/>
+          </accommodationGroup>
+        </accommodations>
+        <scheduleOfServices>
+          <course title="Art (Recreation/Leisure II)" gen="1 period (A or B day)" pgdb="Gen"/>
+          <course title="English/Language Arts/Reading (Communications II)" spec="1 period (A or B day)" pgdb="Spec"/>
+          <course title="Health ( Personal Health &amp; Hygiene II)" spec="1 period (A or B day)" pgdb="Spec"/>
+          <course title="Math (Applied Consumer Skills II)" spec="1 period (A or B day)" pgdb="Spec"/>
+          <course title="Physical Education (Partners in PE II)" gen="1 period (A or B day)" pgdb="Gen"/>
+          <course title="Science (Applied Environmental Awareness II)" spec="1 period (A or B day)" pgdb="Spec"/>
+          <course title="Social Studies (Community Citizenship II)" spec="1 period (A or B day)" pgdb="Spec"/>
+          <course title="Vocation (Applied Marketable Skills II)" spec="1 period (A or B day)" pgdb="Spec"/>
+        </scheduleOfServices>
+        <annualGoals>
+          <!--<annualGoal code="1" focus="Speech">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given a visual and/or verbal direct cue(s)</conditions>
+            <behavior>Taylen will communicate with others to express his knowledge and make requests</behavior>
+            <criteria>with 70% accuracy</criteria>
+            <objectives>
+              <objective code="1.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a verbal an/or visual direct cue(s)</conditions>
+                <behavior>Taylen will follow one-step directions to complete activities/tasks</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="1.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a verbal an/or visual direct cue(s)</conditions>
+                <behavior>Taylen will use a phrase or sentence to answer wh-questions about a story/recent event using picture cues</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="1.3">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a verbal an/or visual direct cue(s)</conditions>
+                <behavior>Taylen will request desired items using a phrase or sentence</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>-->
+          <annualGoal code="2" focus="Health">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and verbal reminders to stay on task and with extended wait time for responses</conditions>
+            <behavior>Taylen will recall ways to enhance and maintain personal health, and identify body structures and functions that relate to personal health</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="2.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a visual representation displaying a labeled food pyramid along with several pictures of labelled food items from each food category found on the pyramid</conditions>
+                <behavior>Taylen will select with his voice a balanced meal from the labelled food item pictures</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="2.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given picture representations of the circulatory, muscular, skeletal, nervous, respiratory, and digestive body systems and a blank full human body poster</conditions>
+                <behavior>Taylen will match each body system to its corresponding location on the poster</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="3" focus="Physical Education">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given appropriate wait time for responses and visual and verbal reminders to stay on task</conditions>
+            <behavior>Taylen will safely engage to completion light-to-moderate physical activities</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="3.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given repeated physical demonstrations of the planned activity by the PE Coach and/or staff/peer, repeated verbal step by step descriptions of the activities using simplified language by the PE coach and/or staff/peer</conditions>
+                <behavior>Taylen will participate in light-to-moderate health-related physical activities on a by properly completing the demonstrated warm up and cool down procedures for the planned activity</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="3.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given repeated physical demonstrations of the planned activity by the PE Coach and/or staff/peer, repeated verbal step by step descriptions of the activities using simplified language by the PE coach and/or staff/peer, and frequent verbal feedback on his performance</conditions>
+                <behavior>Taylen will participate in light -to-moderate health-related physical activities on a regular basis by properly completing the demonstrated planned activity</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="4" focus="Fine Arts">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given verbal and visual reminders to stay on task</conditions>
+            <behavior>Taylen will demonstrate appreciation for Fine Arts through production of original artworks using a variety of media</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="4.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a partially completed work of art to be used as a guide, a variety of materials, such as paint, paint brushes, colored pencils, markers, crayons, chalk, molding clay, stencils, and cut outs</conditions>
+                <behavior>Taylen will demonstrate artistic competence by selecting the appropriate materials he must use and presenting these material choices to a teacher</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="4.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>hen given a completed model of a work of art to use as a guide, a verbal explanation of  how the model was produced using simplified language and physical demonstrations on how to use given art media necessary for the given project</conditions>
+                <behavior>Taylen will produce original artwork using a variety of materials by completing the project</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="5" focus="Social Studies">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given repeated visual and verbal reminders to stay on task and appropriate wait time for responses and positive reinforcement</conditions>
+            <behavior>Taylen will identify the locations of contemporary countries and large bodies of water on a map</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="5.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when asked to determine the country with boldly outlined borders on a map of the world</conditions>
+                <behavior>Taylen will identify the countries of Canada, Mexico, United States, Brazil, and Argentina by selecting the appropriate country name with his voice when presented three (3) answer choices</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="5.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when asked to determine the body of water with boldly outlined borders on a map of the world</conditions>
+                <behavior>Taylen will identify the Atlantic, Pacific, Indian, Arctic oceans by selecting the appropriate body of water's name with his voice when presented three (3) answer choices</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="6" focus="Science">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given repeated visual and verbal reminders to stay on task and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Taylen will demonstrate the use of environmentally appropriate practices and identify the structure of the Earth</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="6.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a picture labeled graphic organizer for paper, plastic, and aluminum, and a variety of picture representations for each category</conditions>
+                <behavior>Taylen will show appropriate use and conservation of resources including recycling of materials by matching picture representations of paper, plastic, and aluminum materials in the appropriate locations of a graphic organizer</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="6.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a colored picture representation of the layers of earth clearly defined, each layer being pointed to and named</conditions>
+                <behavior>Taylen will identify compositional and mechanical layers of the earth including inner core, outer core, mantle, crust, asthenosphere, lithosphere and mesosphere when named by pointing to the requested layer on the picture representation</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="7" focus="Reading">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given repeated visual and verbal reminders to stay on task, appropriate wait time for responses, and positive reinforcement</conditions>
+            <behavior>Taylen will use a variety of strategies to demonstrate comprehension of informational and literary text by inferring a theme from a text</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="7.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when a teacher introduces a text by displaying an image closely linked to one or more of the story’s themes</conditions>
+                <behavior>Taylen will generate a prediction verbally or in writing about the possible contents of the story</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="7.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when a teacher reads a short story out loud</conditions>
+                <behavior>Taylen will demonstrate awareness of one or more of the story’s themes by drawing on paper or expressing vocally a possible cover picture for the story</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="8" focus="Math">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given repeated visual and verbal redirection to stay on the task, appropriate wait time for responses, and positive reinforcement</conditions>
+            <behavior>Taylen will use measuring tools to measure the length of objects to reinforce the continuous nature of linear measurement</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="8.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given an object from the surrounding environment, and a paper ruler with no markings representing one unit of measure</conditions>
+                <behavior>Taylen will report the object's length</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="8.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given two paper rulers of differing lengths, yet both representing one unit of measure respectively</conditions>
+                <behavior>Taylen will measure the same object/distance with the supplied rulers and describe how and why the measurements differ</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="9" focus="Social/Emotional">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given clearly defined/consistent limits, positive reinforcement, and appropriate wait time for responses</conditions>
+            <behavior>Taylen will maintain control when frustrated or disappointed by using a variety of calming techniques</behavior>
+            <criteria>7 out of 10 times</criteria>
+            <objectives>
+              <objective code="9.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given positive reinforcement for appropriate responses to stressors</conditions>
+                <behavior>Taylen will use constructed breathing exercises to mitigate frustration to stress</behavior>
+                <criteria>7 out of 10 times</criteria>
+              </objective>
+              <objective code="9.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given positive reinforcement for appropriate responses to stressors, extended wait time for responses, and a choice board containing healthy responses to stress</conditions>
+                <behavior>Taylen will redirect his frustration to stress by choosing and implementing an appropriate response on the choice board</behavior>
+                <criteria>7 out of 10 times</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+
+        </annualGoals>
+      </student>
+      <student firstName="Leo" lastName="Diaz Leiton" dob="2007-04-22" localID="448608" gender="Male" grade="7" campus="O'Banion Middle School">
+        <annualGoals>
+          <annualGoal code="1" focus="Reading">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and physical re-directions and a procedural text</conditions>
+            <behavior>Leo will gather information in procedural texts and documents independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="1.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and physical re-directions and a procedural text (recipe) with pictorial directions</conditions>
+                <behavior>Leo will follow pictorial directions to determine the sequence of activities needed to carry out the procedure independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="1.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and physical re-directions and a timeline with pictures</conditions>
+                <behavior>Leo will explain the sequence of information from a timeline independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="2" focus="Reading">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given a text or vocabulary word cards</conditions>
+            <behavior>Leo will identify new vocabulary words in text using a variety of strategies independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="2.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a text that has been presented three times</conditions>
+                <behavior>eo will identify words that name actions (verbs) and words that name persons, places, or things (nouns) independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="2.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given vocabulary word cards</conditions>
+                <behavior>Leo will be able to identify and read at least 10 high frequency words from a commonly used list independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="3" focus="Science">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given picture cards</conditions>
+            <behavior>Leo will understand the organization of our solar system and the relationship among various bodies that comprise it independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="3.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given picture label cards of Earth’s layers</conditions>
+                <behavior>Leo will place the label cards onto a diagram of the Earth’s layers independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="3.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given picture cards of planets and the Sun</conditions>
+                <behavior>Leo will place the picture cards in the correct location within Earth’s Solar System independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="4" focus="English/Language Arts">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given repeated verbal directions, correct examples and direct prompts</conditions>
+            <behavior>Leo will be able to edit text using correct capitalization and punctuation</behavior>
+            <criteria>with 70% accuracy</criteria>
+            <objectives>
+              <objective code="4.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given repeated verbal directions and simple sentence of 3-5 words without correct capitalization</conditions>
+                <behavior>Leo will rewrite and edit the sentence with correct beginning capitalization and capitalization of the proper nouns</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="4.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>hen given repeated verbal directions and a simple sentence of 3-5 words without ending punctuation</conditions>
+                <behavior>Leo will rewrite the sentence with correct punctuation</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="5" focus="Fine Arts">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and physical re-directions to the task</conditions>
+            <behavior>Leo will demonstrate an understanding of relating art to what the student already knows independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="5.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and physical re-directions to the task</conditions>
+                <behavior>Leo will demonstrate an understanding of relating art to personal experiences independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="5.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and physical re-directions to the task and a completed color wheel</conditions>
+                <behavior>Leo will identify colors on the color wheel and group them by color family independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="6" focus="Social Studies">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given geographic tool such as a map or globe</conditions>
+            <behavior>Leo will understand the locations and characteristics of the major parts of the world independently </behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="6.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a world map and corresponding cards with text and picture support</conditions>
+                <behavior>Leo will identify and locate 5 oceans of the world {Pacific Ocean, Atlantic Ocean, Indian Ocean, Artic Ocean and Antarctic (Southern) Ocean}, by placing the correct ocean card onto the map of the world independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="6.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a world map with corresponding cards with text and picture support</conditions>
+                <behavior>Leo will locate and identify the 7 continents by placing the correct country card onto a world map independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="7" focus="Social/Emotional">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual, verbal and physical re-directions to stay on a task</conditions>
+            <behavior>Leo will increase adaptability and emotional functioning skills independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="7.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given verbal directions and expectations of behavior</conditions>
+                <behavior>Leo will handle changes in the schedule or daily routine independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="7.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given verbal and visual reminders</conditions>
+                <behavior>Leo will not show anger or frustration when competing in games and activities</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="8" focus="Math">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given a calculator, repeated verbal instruction, correct examples and prompts</conditions>
+            <behavior>Leo will find solutions to addition and subtraction problems</behavior>
+            <criteria>with 70% accuracy</criteria>
+            <objectives>
+              <objective code="8.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a calculator, verbal instructions, prompts and examples</conditions>
+                <behavior>Leo will add or subtract two digit intergers with or without regrouping to produce the sum of the equation</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="8.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a calculator, prompts and examples</conditions>
+                <behavior>Leo will be able to solve basic multiplication and divison problems</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="9" focus="Activities of Daily Living II">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given a computer, a specific task, prompts and encouragement</conditions>
+            <behavior>Leo will explore a given topic and be able to provide 1 detail about the topic</behavior>
+            <criteria>with 70% accuracy</criteria>
+            <objectives>
+              <objective code="9.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a computer, a specific topic and a specific task</conditions>
+                <behavior>Leo will be able to explore the topic and provide 1 verbal detail</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="9.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when he is provided with a computer, assistance with entering the website and maneuvering through the site</conditions>
+                <behavior>Leo will be able to research a topic of his choice and provide 2 details of the topic</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+
+        </annualGoals>
+      </student>
+      <student firstName="Giselle" lastName="Lemus" dob="2007-09-07" localID="703088" gender="Female" grade="7" campus="O'Banion Middle School">
+        <annualGoals>
+          <annualGoal code="1" focus="Reading">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Giselle will recognize how elements of fiction contribute to plot development from the story independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="1.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will support her understanding of story elements by pointing, stating, and writing her answer independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="1.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will describe the plot by answering problem/solution questions by pointing, stating, and writing her answer independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="2" focus="Written Expression">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given a communication board and/or pictures paired with text, verbal redirections, verbal indirect cues, a sentence to complete with the missing noun and adjective with a picture of an activity, frequent redirection, and one to two step instructions</conditions>
+            <behavior>Giselle will identify new vocabulary words by using a variety of strategies independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="2.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a communication board and/or pictures paired with text, verbal redirections, verbal indirect cues, a sentence to complete with the missing noun with a picture of an activity, frequent redirection, and one to two step instructions</conditions>
+                <behavior>Giselle will select the correct noun to complete a sentence by pointing, stating, and writing the correct answer independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="2.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a communication board and/or pictures paired with text, verbal and physical redirections, verbal indirect cues, a sentence to complete with the missing verb with a picture of an activity, frequent redirection, and one to two step instructions</conditions>
+                <behavior>Giselle will select the correct verb to complete a sentence by pointing, stating, and writing the correct answer independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="3" focus="Math">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when provided numerical text read aloud using simplified language, manipulatives or representations and/or picture representations of numerical values, pictures paired with number text as answer choices being pointed to and named, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Giselle will apply mathematical process standards to add and subtract single digit numbers while solving problems</behavior>
+            <criteria>with 70% accuracy</criteria>
+            <objectives>
+              <objective code="3.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when provided numerical text read aloud, using simplified language, manipulatives or representations and/or picture representations of numerical values, pictures paired with number text as answer choices being pointed to and named, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will add and subtract rational numbers fluently</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="3.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when provided numerical text read aloud using simplified language, manipulatives verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will apply and extend previous understandings of operations by using manipulatives to assemble problems and answers, or indicating by pointing to numerical text with pictures to solve problems using addition and subtraction of rational numbers</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="4" focus="Science">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when provided text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Giselle will demonstrate her understanding of interactions that occur between matter and energy</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="4.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will recognize that radiant energy from the Sun is transformed into chemical energy through the process of photosynthesis by placing pictures in a diagram of photosynthesis with no more than three blanks</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="4.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will arrange pictures on a food chain diagram with no more than three blank spaces by adding  provided pictures with text to show the flow of energy through living systems of food chains</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="5" focus="Social Studies">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Giselle will understand the location and characteristics of the regions of Texas</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="5.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>hen given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Giselle will identify the Mountains, Great Plains, and Coastal Plains regions of Texas by placing pictures with text onto a map of Texas in the appropriate area of the identified region</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="5.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, symbols representing names of cities paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>iselle will locate places of importance in Texas such as major cities on a map of Texas by placing symbols/names on a map in the correct location of each city</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+
+
+        </annualGoals>
+      </student>
+      <student firstName="Michael" lastName="Serban" dob="2008-09-19" localID="712460" gender="Male" grade="6" campus="O'Banion Middle School">
+        <annualGoals>
+          <annualGoal code="2" focus="Reading">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given verbal and pictorial representations of reminders to stay on task</conditions>
+            <behavior>Michael will be able to identify features of literary nonfiction independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="2.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a short story on his reading level</conditions>
+                <behavior>Michael will identify features of literary nonfiction by making inferences based on the cover, title, illustrations, and plot independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="2.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a short story on his reading level</conditions>
+                <behavior>Michael will identify features of literary nonfiction by retelling important events of the story in logical order independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="3" focus="Written Expression">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and verbal directions and appropriate wait time</conditions>
+            <behavior>Michael will increase his knowledge of the writing process recursively to compose multiple texts that are legible and uses appropriate conventions</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="3.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and verbal directions and appropriate wait time</conditions>
+                <behavior>Michael will be able use his knowledge of the writing process to identify past and present verb tense</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="3.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and verbal directions and appropriate wait time</conditions>
+                <behavior>Michael will be able to use his knowledge of the writing process to identify singular, plural, common, and proper nouns</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="4" focus="Math">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given manipulatives, math charts, visual and verbal directions, and appropriate wait time</conditions>
+            <behavior>Michael will understand the mathematical process standards to represent and understand relationships related to place value and to represent and generate fractions to solve problems</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="4.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given manipulatives, fractional parts, visual and verbal directions, and appropriate wait time</conditions>
+                <behavior>Michael will be able to identify examples and non-examples of halves, fourths, and eighths</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="4.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given manipulatives, math charts, visual and verbal directions, and appropriate wait time</conditions>
+                <behavior>Michael will be able to round whole numbers to a given place value through the hundreds place</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="5" focus="Science">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and physical prompts, a graphic organizer, and appropriate wait time</conditions>
+            <behavior>Michael will increase his knowledge of how physical characteristics of plants help them meet their basic needs basic parts of plants and how the physical characteristics and behaviors of animals help them meet their basic needs</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="5.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given verbal and visual prompts</conditions>
+                <behavior>Michael will be able to identify how the physical characteristics of plants help them meet their basic needs independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="5.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and physical prompts, a graphic organizer, and appropriate wait time</conditions>
+                <behavior>Michael will be able to identify how the physical characteristics and behaviors of animals help them meet their basic needs independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="6" focus="Social Studies">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and verbal directions, and appropriate wait time</conditions>
+            <behavior>Michael will understand the locations and characteristics of places and regions in the community, state, and nation independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="6.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and verbal directions, and appropriate wait time</conditions>
+                <behavior>Michael will  identify major landforms and bodies of water, including each of the continents and each of the oceans, on maps and globes independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="6.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and verbal directions, and appropriate wait time</conditions>
+                <behavior>Michael will interpret information on maps and globes using basic map elements such as title, orientation (north, south, east, west), and legend/map keys independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="7" focus="Health">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given visual and verbal directions and appropriate wait time</conditions>
+            <behavior>Michael will be able identify the functions of the human body and how they relate to personal health throughout the life span independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="7.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>hen given visual and verbal directions and appropriate wait time</conditions>
+                <behavior>Michael will be able identify the major organs of the body such as the heart, lungs, and brain and describe their primary function independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="7.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given visual and verbal directions and appropriate wait time</conditions>
+                <behavior>Michael will be able identify the major systems of the body independently </behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="8" focus="Fine Arts">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given verbal prompting and wait time</conditions>
+            <behavior>Michael will acknowledge ideas through original artworks using a variety of media independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="8.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given verbal prompting and wait time</conditions>
+                <behavior>Michael will acknowledge ideas through original artworks using a variety of media by creating compositions using the elements of art independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="8.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given verbal prompting and wait time</conditions>
+                <behavior>Michael will acknowledge ideas through original artworks using a variety of media by expressing ideas and feelings in personal artworks using a variety of lines, shapes, colors, independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="9" focus="Social/Emotional">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given teacher correction and direct verbal cues</conditions>
+            <behavior>Michael will demonstrate appropriate compliance and attention skills independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="9.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given teacher correction and direct verbal cues</conditions>
+                <behavior>Michael will demonstrate appropriate compliance skills by speaking only when it is appropriate (not out of turn or when others are speaking) with no more than 2 corrections or verbal reminders independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="9.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given teacher correction and direct verbal cues</conditions>
+                <behavior>Michael will demonstrate appropriate attention skills by paying attention and listening when others are speaking by listening to a teacher or peer verbally tell a simple story, without interrupting, and then verbally answer at least 3 questions about the story independently</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+        </annualGoals>
+      </student>
+      <student firstName="Karl" lastName="Yeoman" dob="2007-11-07" localID="392952" gender="Male" grade="7" campus="O'Banion Middle School">
+        <annualGoals>
+          <annualGoal code="1" focus="Reading">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given a communication board and/or pictures paired with text, verbal redirections, verbal indirect cues, a sentence to complete with the missing noun and adjective with a picture of an activity, frequent redirection, and one to two step instructions</conditions>
+            <behavior>Karl will identify new vocabulary words by using a variety of strategies independently</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="1.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a communication board and/or pictures paired with text, verbal and physical redirections, verbal indirect cues, a sentence to complete with the missing verb with a picture of an activity, frequent redirection, teacher assistance and one to two step instructions</conditions>
+                <behavior>Karl will select the correct verb to complete a sentence by pointing, stating, and writing the correct answer</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="1.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given a communication board and/or pictures paired with text, verbal redirections, verbal indirect cues, a sentence to complete with the missing noun with a picture of an activity, frequent redirection, and one to two step instructions</conditions>
+                <behavior>Karl will select the correct noun to complete a sentence by pointing, or stating, correct answer</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="3" focus="Math">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when provided numerical text read aloud using simplified language, manipulatives or representations and/or picture representations of numerical values, pictures paired with number text as answer choices being pointed to and named, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Karl will apply mathematical process standards to add and subtract single digit numbers while solving problems</behavior>
+            <criteria>with 70% accuracy</criteria>
+            <objectives>
+              <objective code="3.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when provided numerical text read aloud using simplified language, manipulatives verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will apply and extend previous understandings of operations by using manipulatives to assemble problems and answers, or indicating by pointing to numerical text with pictures to solve problems using addition and subtraction of rational numbers</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+              <objective code="3.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when provided numerical text read aloud, using simplified language, manipulatives or representations and/or picture representations of numerical values, pictures paired with number text as answer choices being pointed to and named, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will add and subtract rational numbers fluently</behavior>
+                <criteria>with 70% accuracy</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="5" focus="Science">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when provided text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>arl will demonstrate his understanding of interactions that occur between matter and energy</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="5.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will arrange pictures on a food chain diagram with no more than three blank spaces by adding provided pictures with text to show the flow of energy through living systems of food chains</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="5.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will recognize that radiant energy from the Sun is transformed into chemical energy through the process of photosynthesis by placing pictures in a diagram of photosynthesis with no more than three blanks</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="6" focus="Social Studies">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Karl will understand the location and characteristics of the regions of Texas</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="6.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will identify the Mountains, Great Plains, and Coastal Plains regions of Texas by placing pictures with text onto a map of Texas in the appropriate area of the identified region</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="6.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, symbols representing names of cities paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will locate places of importance in Texas such as major cities on a map of Texas by placing symbols/names on a map in the correct location of each city</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="7" focus="Activities of Daily Living II">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+            <behavior>Karl will understand and apply respect for self, family, friends, and others</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="7.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will [missing behavior]</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="7.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when given text read aloud using simplified language, pictures paired with text as answer choices being pointed to and named to, three answer choices, verbal indirect cues, frequent redirection, and appropriate wait time and encouragement for responses</conditions>
+                <behavior>Karl will describe strategies to show respect for individual differences including age differences by describe methods of communicating emotions</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+          <annualGoal code="8" focus="Social/Emotional">
+            <timeframe>From ARD year to ARD year</timeframe>
+            <conditions>when provided positive encouragement, visual reminders, picture schedules, visual/symbol requests and frequent feedback.</conditions>
+            <behavior>Karl will follow all campus and classroom rules applicable to the ALE envirnoment</behavior>
+            <criteria>70% of the time</criteria>
+            <objectives>
+              <objective code="8.1">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when provided positive reinforcement, visual schedules, visual/symbol instructions, teacher assitance, and frequent feedback</conditions>
+                <behavior>Karl will follow directives when time to transition from class to class or to the classroom(i.e. following the teacher to the next class and not stopping/sitting in the hallways)</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+              <objective code="8.2">
+                <timeframe>From ARD year to ARD year</timeframe>
+                <conditions>when provided stuctured reminders, visual/symbol reminders, frequent feedback</conditions>
+                <behavior>Karl will participate in classroom activities (i.e. coming to the table/desk to do his classwork when asked) within two requests</behavior>
+                <criteria>70% of the time</criteria>
+              </objective>
+            </objectives>
+          </annualGoal>
+        </annualGoals>
+      </student>
+    </students>
+  </schoolyear>
+</configuration>

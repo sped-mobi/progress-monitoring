@@ -1,62 +1,39 @@
 ﻿using System;
 using Independentsoft.Office.Word;
 
-namespace Gisd.Sped.Office.Word
+namespace Gisd.Sped.Progress
 {
-
-    public static class WordDocumentExtensions
+    public static class RunExtensions
     {
-
-    }
-
-
-    public static class TableExtensions
-    {
-
-    }
-
-
-    public static class RowExtensions
-    {
-
-    }
-
-
-    public static class CellExtensions
-    {
-
-    }
-
-    public static class ParagraphExtensions
-    {
-
-        public static Paragraph Align(this Paragraph source, HorizontalAlignmentType horizontal, VerticalTextAlignment vertical)
+        public static Run DefaultStylize(this Run source, string text, bool italics = false, bool bold = false, bool underline = false)
         {
-            if (source is null)
+            return source.Stylize(text, Defaults.FontSize, Defaults.FontFamily, italics, bold, underline);
+        }
+
+        public static Run Stylize(this Run source, string text, int fontSize = Defaults.FontSize, string font = Defaults.FontFamily, bool italics = false, bool bold = false, bool underline = false)
+        {
+            source.AddText(text);
+            source.AsciiFont = font;
+            source.FontSize = fontSize;
+
+            if (bold)
             {
-                throw new ArgumentNullException(nameof(source));
+                source.Bold = Defaults.True;
             }
 
-            source.VerticalTextAlignment = vertical;
-            source.HorizontalTextAlignment = horizontal;
+            if (underline)
+            {
+                source.Underline = Defaults.SingleUnderline;
+            }
+
+            if (italics)
+            {
+                source.Italic = Defaults.True;
+            }
+
             return source;
         }
 
-        public static Paragraph AddRuns(this Paragraph paragraph, params Run[] runs)
-        {
-            if (paragraph is null)
-            {
-                throw new ArgumentNullException(nameof(paragraph));
-            }
-
-            foreach (var run in runs)
-                paragraph.Add(run);
-            return paragraph;
-        }
-    }
-
-    public static class RunExtensions
-    {
         public static Run AppendText(this Run source, string text)
         {
             if (source is null)
@@ -70,6 +47,8 @@ namespace Gisd.Sped.Office.Word
             }
 
             source.AddText(text);
+            source.FontSize = Defaults.FontSize;
+            source.AsciiFont = Defaults.FontFamily;
             return source;
         }
 
@@ -85,8 +64,8 @@ namespace Gisd.Sped.Office.Word
                 throw new ArgumentException("message", nameof(text));
             }
 
-            source.AddText(text);
-            source.Bold = DefaultValues.True;
+            source.AppendText(text);
+            source.Bold = Defaults.True;
             return source;
         }
 
@@ -102,8 +81,8 @@ namespace Gisd.Sped.Office.Word
                 throw new ArgumentException("message", nameof(text));
             }
 
-            source.AddText(text);
-            source.Italic = DefaultValues.True;
+            source.AppendText(text);
+            source.Italic = Defaults.True;
             return source;
         }
 
@@ -119,8 +98,8 @@ namespace Gisd.Sped.Office.Word
                 throw new ArgumentException("message", nameof(text));
             }
 
-            source.AddText(text);
-            source.Underline = DefaultValues.SingleUnderline;
+            source.AppendText(text);
+            source.Underline = Defaults.SingleUnderline;
             return source;
         }
 
@@ -136,9 +115,9 @@ namespace Gisd.Sped.Office.Word
                 throw new ArgumentException("message", nameof(text));
             }
 
-            source.AddText(text);
-            source.Underline = DefaultValues.SingleUnderline;
-            source.Bold = DefaultValues.True;
+            source.AppendText(text);
+            source.Underline = Defaults.SingleUnderline;
+            source.Bold = Defaults.True;
             return source;
         }
 
@@ -154,9 +133,9 @@ namespace Gisd.Sped.Office.Word
                 throw new ArgumentException("message", nameof(text));
             }
 
-            source.AddText(text);
-            source.Italic = DefaultValues.True;
-            source.Bold = DefaultValues.True;
+            source.AppendText(text);
+            source.Italic = Defaults.True;
+            source.Bold = Defaults.True;
             return source;
         }
 
@@ -184,53 +163,6 @@ namespace Gisd.Sped.Office.Word
             }
 
             return source;
-        }
-    }
-
-
-    public static class WordFactory
-    {
-        public static Paragraph Paragraph(VerticalTextAlignment verticalAlignment, params Run[] runs)
-        {
-            var paragraph = Paragraph(runs);
-            paragraph.VerticalTextAlignment = verticalAlignment;
-            return paragraph;
-
-        }
-
-        public static Paragraph Paragraph(params Run[] runs)
-        {
-            Paragraph paragraph = new Paragraph();
-            if (runs?.Length > 0)
-            {
-                paragraph.AddRuns(runs);
-            }
-            return paragraph;
-        }
-
-
-        public static Run BoldText(string text)
-        {
-            var run = Run();
-            run = run.AppendBoldText(text);
-            return run;
-        }
-
-        public static Run BoldUnderlineText(string text)
-        {
-            var run = Run();
-            run = run.AppendBoldUnderlineText(text);
-            return run;
-        }
-
-        public static Run Run()
-        {
-            var run = new Run
-            {
-                FontSize = DefaultValues.FontSize,
-                AsciiFont = DefaultValues.FontFamily,
-            };
-            return run;
         }
     }
 }

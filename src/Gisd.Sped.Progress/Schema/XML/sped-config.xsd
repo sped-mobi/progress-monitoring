@@ -1,0 +1,291 @@
+﻿<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+  <xs:attributeGroup name="student.attributes">
+    <xs:attribute name="firstName" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The first name of the student.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="lastName" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The last name of the student.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="localID" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The district-assigned identifying number.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="dob" type="xs:date" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The student's date of birth following the pattern 'yyyy-MM-dd'.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="gender" type="gender.type"  use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The gender assigned to the student at birth.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="grade" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The the current grade of the student.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="campus" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The assigned campus of the student.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="accommodationGroup.attributes">
+    <xs:attribute name="name" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>The name of the accommodation group.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="accommodation.attributes">
+    <xs:attribute name="name" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The name of the accommodation.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="subject" type="subject.list" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          List of subjects designating the environments that the accommodation should occur.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="schoolyear.attributes">
+    <xs:attribute name="identifier" type="schoolyear.type" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          The title of the school year, such as 1998–1999.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="course.attributes">
+    <xs:attribute name="title" type="xs:string" />
+    <xs:attribute name="gen" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>General Education Time</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="spec" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>Special Education Time</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="pgdb" type="pgdb.type" use="optional">
+      <xs:annotation>
+        <xs:documentation>Progress/Grade Determined By</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="annualGoal.attributes">
+    <xs:attribute name="code" type="xs:string"  />
+    <xs:attribute name="focus" type="focus.type" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="objective.attributes">
+    <xs:attribute name="code" type="xs:string"  />
+  </xs:attributeGroup>
+
+  <xs:simpleType name="subject.list">
+    <xs:list itemType="subject.type" />
+  </xs:simpleType>
+
+  <xs:simpleType name="subject.type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ELA">
+        <xs:annotation>
+          <xs:documentation>English/Language Arts</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Rdg" />
+      <xs:enumeration value="Math" />
+      <xs:enumeration value="SC" />
+      <xs:enumeration value="PE" />
+      <xs:enumeration value="SS" />
+      <xs:enumeration value="FA" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="gender.type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Male" />
+      <xs:enumeration value="Female" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pgdb.type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Gen" />
+      <xs:enumeration value="Spec" />
+      <xs:enumeration value="Joint" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="schoolyear.type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="2019–2020" />
+      <xs:enumeration value="2020–2021" />
+      <xs:enumeration value="2021–2022" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="focus.type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Fine Arts" />
+      <xs:enumeration value="Health" />
+      <xs:enumeration value="Math" />
+      <xs:enumeration value="Physical Education" />
+      <xs:enumeration value="Science" />
+      <xs:enumeration value="Social Studies" />
+      <xs:enumeration value="Vocational Skills" />
+      <xs:enumeration value="Speech" />
+      <xs:enumeration value="Social/Emotional" />
+      <xs:enumeration value="Reading" />
+      <xs:enumeration value="English/Language Arts" />
+      <xs:enumeration value="Activities of Daily Living II" />
+      <xs:enumeration value="Written Expression" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+
+  <xs:element name="configuration" type="configuration" />
+  <xs:complexType name="configuration">
+    <xs:sequence>
+      <xs:element ref="schoolyear" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:element name="schoolyear" type="schoolyear" />
+  <xs:complexType name="schoolyear">
+    <xs:sequence>
+      <xs:element ref="students" minOccurs="0" />
+    </xs:sequence>
+    <xs:attributeGroup ref="schoolyear.attributes" />
+  </xs:complexType>
+
+
+  <xs:element name="students" type="students" />
+  <xs:complexType name="students">
+    <xs:sequence>
+      <xs:element ref="student" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:element name="student" type="student" />
+  <xs:complexType name="student">
+    <xs:sequence>
+      <xs:element ref="accommodations" minOccurs="0" />
+      <xs:element ref="scheduleOfServices" minOccurs="0" />
+      <xs:element ref="annualGoals" minOccurs="0" />
+    </xs:sequence>
+    <xs:attributeGroup ref="student.attributes" />
+  </xs:complexType>
+
+  <xs:element name="accommodations" type="accommodations" />
+  <xs:complexType name="accommodations">
+    <xs:sequence>
+      <xs:element ref="accommodationGroup" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="accommodationGroup" type="accommodationGroup" />
+  <xs:complexType name="accommodationGroup">
+    <xs:sequence>
+      <xs:element ref="accommodation" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attributeGroup ref="accommodationGroup.attributes" />
+  </xs:complexType>
+
+  <xs:element name="accommodation" type="accommodation" />
+  <xs:complexType name="accommodation">
+    <xs:attributeGroup ref="accommodation.attributes" />
+  </xs:complexType>
+
+  <xs:element name="scheduleOfServices" type="scheduleOfServices" />
+  <xs:complexType name="scheduleOfServices">
+    <xs:sequence>
+      <xs:element ref="course" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:element name="course" type="course" />
+  <xs:complexType name="course">
+    <xs:attributeGroup ref="course.attributes" />
+  </xs:complexType>
+
+  <xs:element name="annualGoals" type="annualGoals" />
+  <xs:complexType name="annualGoals">
+    <xs:sequence>
+      <xs:element ref="annualGoal" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="annualGoal" type="annualGoal">
+    <xs:annotation>
+      <xs:documentation>A measurable annual goal.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="annualGoal">
+    <xs:sequence>
+      <xs:element name="timeframe" type="xs:string" />
+      <xs:element name="conditions" type="xs:string" />
+      <xs:element name="behavior" type="xs:string" />
+      <xs:element name="criteria" type="xs:string" />
+      <xs:element ref="objectives" minOccurs="0" />
+    </xs:sequence>
+    <xs:attributeGroup ref="annualGoal.attributes" />
+  </xs:complexType>
+
+  <xs:element name="objectives" type="objectives" />
+  <xs:complexType name="objectives">
+    <xs:sequence>
+      <xs:element ref="objective" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="objective" type="objective" />
+  <xs:complexType name="objective">
+    <xs:sequence>
+      <xs:element name="timeframe" type="xs:string" />
+      <xs:element name="conditions" type="xs:string" />
+      <xs:element name="behavior" type="xs:string" />
+      <xs:element name="criteria" type="xs:string" />
+    </xs:sequence>
+    <xs:attributeGroup ref="objective.attributes" />
+  </xs:complexType>
+
+</xs:schema>
