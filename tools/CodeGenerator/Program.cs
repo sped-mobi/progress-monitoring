@@ -29,7 +29,10 @@ namespace CodeGenerator
 
         private static void TestDocumentFactory()
         {
-            DocumentFactory.CreateDocuments(_filePath, "g:\\temp\\", "Brad Marshall", "Grading Period 1", true);
+            DocumentFactory.CreateDocuments(_filePath, "g:\\temp\\", "Brad Marshall", 2, OutputType.SingleDocument);
+            DocumentFactory.CreateDocuments(_filePath, "g:\\temp\\", "Brad Marshall", 3, OutputType.SingleDocument);
+            DocumentFactory.CreateDocuments(_filePath, "g:\\temp\\", "Brad Marshall", 4, OutputType.SingleDocument);
+
         }
 
         private static void After()
